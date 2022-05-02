@@ -1,0 +1,13 @@
+<aside class="vw-100 vh-100 position-fixed top-0 start-0 d-flex justify-content-center align-items-center" #modal
+  (click)="closeModalChecker($event)">
+  <div class="px-1">
+    <div class="container bg-white py-4 px-5">
+      <div class="py-4 px-3">
+        <app-add-student *ngIf="isAddModal; else studentDetails"></app-add-student>
+      </div>
+    </div>
+  </div>
+</aside>
+<ng-template #studentDetails>
+  <app-student-details></app-student-details>
+</ng-template>

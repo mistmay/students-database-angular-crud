@@ -1,0 +1,10 @@
+<h2 class="fs-2 fw-bold mb-2">
+  STUDENT DETAILS:<br><br>
+  {{selectedStudent?.name}} {{selectedStudent?.surname}}
+</h2>
+<div class="w-100 p-2 bg-light d-flex flex-column align-items-start gap-3">
+  <span>Address: {{selectedStudent?.address}}</span>
+  <span>Note: {{selectedStudent?.note}}</span>
+  <span>Date of Birth: {{selectedStudent?.date | date}}</span>
+  <span>Email: {{selectedStudent?.email}}</span>
+</div>

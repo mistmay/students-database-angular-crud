@@ -1,3 +1,6 @@
+Simple Crud app made with Angular, Bootstrap, Html, Scss and Typescript.
+You can organize a students database (add and delete students profiles). Data ara saved in Local Storage.
+
 # StudentsDatabase
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.

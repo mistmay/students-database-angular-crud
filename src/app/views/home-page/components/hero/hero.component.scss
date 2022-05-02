@@ -1,0 +1,16 @@
+section {
+  height: 500px;
+  padding: 80px;
+  gap: 50px;
+  text-align: center;
+
+  svg {
+    width: 150px;
+  }
+}
+
+@media (min-width: 400px) {
+  section {
+    text-align: left;
+  }
+}

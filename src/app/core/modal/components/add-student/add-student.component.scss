@@ -1,0 +1,32 @@
+form {
+  input {
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    outline: none;
+    opacity: 0.8;
+  }
+
+  textarea {
+    border-radius: 4px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    outline: none;
+    height: 250px;
+  }
+
+}
+
+.different-width-input {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  #name-surname {
+    height: 80px;
+  }
+
+  .different-width-input {
+    width: 45%;
+  }
+}

@@ -1,0 +1,29 @@
+input {
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.container-fluid {
+  border-radius: 8px;
+  border: 1px solid lightgray;
+}
+
+.students {
+  cursor: pointer;
+
+  &:hover {
+    background-color: lightgray;
+    transform: scale(1.005);
+  }
+}
+
+.profile-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  padding: 0;
+  text-align: left;
+}

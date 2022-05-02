@@ -1,0 +1,40 @@
+header {
+  height: 140px;
+
+  nav {
+    #logo {
+      width: 100%;
+    }
+
+    #nav-content {
+      width: 100%;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    height: 70px;
+
+    nav {
+      #logo {
+        width: 135px;
+      }
+
+      #nav-content {
+        width: calc(100% - 135px);
+      }
+    }
+  }
+}
